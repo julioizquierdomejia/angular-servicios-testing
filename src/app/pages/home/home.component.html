@@ -1,0 +1,19 @@
+<p>home works!</p>
+
+<ul>
+    <li *ngFor="let dato of input">
+        {{dato | json}}
+    </li>
+</ul>
+
+<table>
+    <thead>
+        <th>algo</th>
+    </thead>
+    <tbody>
+        <td *ngFor="let i of input">
+            <tr>{{i | json}}</tr>
+        </td>
+    </tbody>
+</table>
+
